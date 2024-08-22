@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../WEBUTVIKLING2024/CSS"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/CSSanimasjoner"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/FLEX"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/GRID"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/HTML"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/HTMLskjema"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/MICRODATA"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/ResponsivtDesign"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/SASS"
+		},
+		{
+			"path": "../WEBUTVIKLING2024/SEO"
+		}
+	],
+	"settings": {}
+}
