@@ -35,9 +35,48 @@
         </section>
         <section>
             <h2>Tilbakemelding om Isak</h2>
-            <form method="post" action="#">
-                <label>Navn til pookie:</label>
-                <input type="text" name="navn" placeholder="Jeff Jibberionoilaksjo">
+            <form method="post">
+                <label for="fornavn">Navn til pookie:</label>
+                <input type="text" name="navn" placeholder="Jeff Jibberionoilaksjo" 
+                id="fornavn" maxlength="45" required>
+
+                <label>
+                    Epost så jeg kan doxe deg:
+                    <input type="email" name="email" 
+                    placeholder="sex@gmail.cum" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                    required>
+                </label>
+                <label>
+                    Eminem:
+                    <input type="text" name="eminem" placeholder="Mom Spaghetti" maxlength="45"
+                    required>
+                </label>
+                <label>
+                    You're looking for this:
+                    <textarea name="melding" 
+                    placeholder="Write the deaththreats here"required></textarea>
+                </label>
+                <label>
+                    Nei as, fakk deg
+                    <input type="radio" name="valg" required>
+                </label> 
+                <label>
+                    Ja as, sex time
+                    <input type="radio" name="valg" required>
+                </label>
+                <label>
+                    Skal tenkte på det sexy boy
+                    <input type="radio" name="valg" required>
+                </label>
+                <input type="submit" value="Send Melding til Obama">
+                <label>
+                    Hva vil du smøre på kroppen min?
+                    <select name="foodSelect">
+                        <option value="Pizza med cumdressing">Pizza med cumdressing</option>
+                        <option value="Wasabi">Wasabi</option>
+                        <option value="Kebab">Kebab</option>
+                    </select>
+                </label>
             </form>
         </section>
     </main>
