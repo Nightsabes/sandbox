@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title goes here</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><h1>Welcome tired one</h1></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Hjem</a>
+                </li>
+                <li>
+                    <a href="validering.html">Valideringsoppgave</a>
+                </li>
+                <li>
+                    <a href="mal.html">Nettside mal</a>
+                </li>
+                <li>
+                    <a href="contact.html">Kontakt oss</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Register your shit here</h2>
+        </section>
+        <section>
+            <form method="post">
+                <label>
+                    Navn:
+                    <input type="text" name="navn" placeholder="Navn" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
+                    <br><br>
+                </label>
+                <label>
+                    Epost:
+                    <input type="email" name="email" 
+                    placeholder="student@hiof.no" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                    required>
+                    <br><br>
+                </label>
+                <label>
+                    Passord:
+                    <input type="password" name="passord" placeholder="Passord" 
+                    minlength="8" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+                    <br><br>
+                </label>
+                <label>
+                    Alder:
+                    <input type="number" name="nummer" placeholder="69" min="18" max="99" required>
+                    <br><br>
+                </label>
+                <label>
+                    Telefon:
+                    <input type="tel" name="telefon" pattern="[0-9]{8,12}" placeholder="12345678" minlength="8" maxlength="12" required>
+                    <br><br>
+                </label>
+                <label>
+                    Dato:
+                    <input type="date" name="dato" max="2023-12-31" required>
+                    <br><br>
+                </label>
+                <label>
+                    Mann
+                    <input type="radio" name="valg" required>
+                </label> 
+                <label>
+                    Kvinne
+                    <input type="radio" name="valg" required>
+                    <br><br>
+                </label>
+                <label>
+                    Land:
+                    <select name="landSelect" required>
+                        <option value="norge">Norge</option>
+                        <option value="sverige">Sverige</option>
+                        <option value="danmark">Danmark</option>
+                    </select>
+                    <br><br>
+                </label>
+                <label>
+                    Samtykker du?
+                    <input type="checkbox" name="samtykk" required>
+                    <br><br>
+                </label>
+                <input type="submit" value="Send inn">
+            </form>
+
+        </section>
+    </main>
+    <footer>
+        <p>Seb 2024 Copyright</p>
+        <p>Spis1Drue.inc</p>
+    </footer>
+</body>
+</html>
