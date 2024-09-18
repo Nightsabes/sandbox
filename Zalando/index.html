@@ -16,11 +16,11 @@
     <!-- Starter hovedinnholdet på siden -->
     <header>
         <!-- Definerer toppinnholdet på siden, typisk for logo og navigasjon -->
-        <img src="img/Zalando-Logo.png" alt="Nettsted logo">
+        <img id="main-logo" src="img/Zalando-Logo.png" alt="Nettsted logo">
         <!-- Viser nettstedets logo. "alt" brukes som alternativ tekst hvis bildet ikke lastes inn, eller for skjermlesere -->
-        <nav>
+        <nav class="flex-space-b">
             <!-- Definerer navigasjonsmenyen på nettsiden -->
-            <ul>
+            <ul class="flex-menu">
                 <!-- Lager en liste over menylenker -->
                 <li><a href="#">Nyheter</a></li>
                 <!-- En lenke til nyheter, med en placeholder "#" for URL -->
@@ -32,7 +32,7 @@
                 <li><a href="#">Streetwear</a></li>
                 <li><a href="#">Sport</a></li>
                 <li><a href="#">Designer</a></li>
-                <li><a href="#">Outlet</a></li>
+                <li><a href="#" id="outlet">Outlet</a></li>
                 <!-- Flere lenker til ulike kategorier -->
             </ul>
             <form>
