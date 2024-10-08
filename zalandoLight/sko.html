@@ -13,8 +13,9 @@
         <!-- Angir tittelen på nettsiden, vises i nettleserens fane -->
     </head>
     <body>
-        <!-- Starter hovedinnholdet på nettsiden -->
-        <header>
+        <div id="grid-container">
+            <!-- Starter hovedinnholdet på nettsiden -->
+            <header id="global-header">
             <!-- Definerer toppdelen av siden (header), ofte brukt til logo, navigasjon osv. -->
             <img id="main-logo" src="img/Zalando-Logo.png" alt="Nettsted logo">
             <!-- Viser nettstedets logo. 'alt' brukes som alternativ tekst hvis bildet ikke lastes inn eller for skjermlesere -->
@@ -43,13 +44,13 @@
                     <!-- En knapp for å sende inn søket -->
                 </form>
             </nav>
-        </header>
-        <main>
+            </header>
+            <main>
             <!-- Definerer hovedinnholdet på siden -->
             <nav>
                 <!-- En ekstra navigasjonsmeny, kanskje for underkategorier -->
                 <ul>
-                    <li> <a href="#">Dame ></a></li>
+                    <li> <a href="#">Dame</a></li>
                     <!-- Lenke for "Dame"-seksjonen -->
                     <li>Sko</li>
                     <!-- Tekst uten lenke for sko under "Dame"-seksjonen -->
@@ -57,7 +58,7 @@
             </nav>
             <h1>Sko til dame</h1>
             <!-- Hovedoverskriften på siden som beskriver innholdet -->
-            <aside>
+            <aside id="category-menu">
                 <!-- Definerer et sideinnhold, som ofte brukes til tilleggsinformasjon -->
                 <nav>
                     <!-- Enda en navigasjonsmeny, denne gangen for spesifikke skokategorier -->
@@ -95,9 +96,9 @@
                         <option value="high">Høyest pris</option>
                     </select>
                 </form>
-                <section>
+                <section class="flex-space-b">
                     <!-- Starter en seksjon for visning av individuelle produkter -->
-                    <article>
+                    <article class="product-card">
                         <!-- Hver produktvisning er definert som en artikkel -->
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <!-- Produktbilde med alternativ tekst -->
@@ -110,7 +111,7 @@
                     </article>
                     
                     <!-- Gjentar artikkelen for hvert produkt som vises på siden -->
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
@@ -119,44 +120,44 @@
                     <!-- Flere artikkelblokker følger samme struktur for andre produkter -->
                     
                     <!-- Produktartikkelen gjentas for å vise flere produkter på samme måte -->
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
                     <!-- Dette fortsetter for hvert produkt, totalt ni produkter vises i denne seksjonen -->
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
                         <p>1299 kr</p>
                     </article>
-                    <article>
+                    <article class="product-card">
                         <img src="img/produktbilde.webp" alt="adidas Orginals handbal spezial">
                         <a href="#">adidas Originals</a>
                         <a href="#"><h3>Handbal Spezial</h3></a>
@@ -164,11 +165,12 @@
                     </article>
                 </section>
             </section>
-        </main>
-        <footer>
+            </main>
+            <footer>
             <!-- Definerer bunnteksten på siden -->
             Zalando Light 2024
             <!-- Enkel tekst som viser nettstedets merkevare og årstall -->
         </footer>
+        </div>
     </body>
 </html>

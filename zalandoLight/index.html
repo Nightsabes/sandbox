@@ -13,8 +13,9 @@
     <!-- Tittelen på nettsiden, vises i nettleserfanen -->
 </head>
 <body>
+    <div id="grid-container">
     <!-- Starter hovedinnholdet på siden -->
-    <header>
+        <header id="global-header">
         <!-- Definerer toppinnholdet på siden, typisk for logo og navigasjon -->
         <img id="main-logo" src="img/Zalando-Logo.png" alt="Nettsted logo">
         <!-- Viser nettstedets logo. "alt" brukes som alternativ tekst hvis bildet ikke lastes inn, eller for skjermlesere -->
@@ -45,14 +46,16 @@
                 <!-- Legger til en knapp for å sende inn søket -->
             </form>
         </nav>
-    </header>
-    <main>
+        </header>
+        <main>
         <!-- Definerer hovedinnholdet på siden -->
-        <section>
-            <!-- Definerer en seksjon for spesifikke innholdstyper, her brukt for de beste tilbudene -->
-            <h2>Våre beste deals</h2>
-            <!-- Overskrift for seksjonen -->
-            <a href="#">Shop nå -></a>
+        <section id="banner">
+            <div>
+                <!-- Definerer en seksjon for spesifikke innholdstyper, her brukt for de beste tilbudene -->
+                <h2>Våre beste deals</h2>
+                <!-- Overskrift for seksjonen -->
+                <a href="#">Shop nå -></a>
+            </div>
             <!-- En lenke som oppfordrer brukeren til å handle nå -->
             <img src="img/powerup.webp" alt="Våre beste deals">
             <!-- Et bilde som illustrerer de beste tilbudene -->
@@ -128,11 +131,12 @@
                 <p>1299 kr</p>
             </article>
         </section>
-    </main>
-    <footer>
+        </main>
+        <footer>
         <!-- Definerer bunnteksten på siden -->
         Zalando Light 2024
         <!-- Enkel tekst som viser nettstedets merkevare og årstall -->
-    </footer>
+        </footer>
+     </div>
 </body>
 </html>
