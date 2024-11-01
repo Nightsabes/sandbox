@@ -225,12 +225,6 @@ nav{
                 list-style: none;
                 padding: 0;
                 margin: 0.5rem 0;
-                li{
-                    &:first-child {
-                        color: #f37070;
-                        text-transform: uppercase;
-                    }
-                }
             }
             /* Hva: Fjerner listeoppsett og legger til styling for produktinfo.
                Hvorfor: For et renere, listefritt oppsett.
