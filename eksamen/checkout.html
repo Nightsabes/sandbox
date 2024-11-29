@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <link rel="stylesheet" href="css/style.css"> 
+    <title>Title goes here</title>
+</head>
+<body>
+    <div>
+        <header>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html">Hjem</a>
+                    </li>
+                    <li>
+                        <a href="product.html">Produkter</a>
+                    </li>
+                    <li>
+                        <a href="index.html"><img src="assets/finallogo2.png" alt="logo" id="logo"></a>
+                    </li>
+                    <li>
+                        <a href="product.html">Kategorier</a>
+                    </li>
+                    <li>
+                        <a href="index.html/footer">Kontakt oss</a>
+                    </li>
+                </ul>
+            </nav>
+            <a href="checkout.html"><i class="fa-solid fa-cart-shopping"></i></a>
+            <input type="search">
+            <Button>Søk</Button>
+        </header>
+    <main>
+       <section>
+            <h1>Shoppingbaggen</h1>
+            <article>
+                <img src="https://picsum.photos/200/300" alt="">
+                <h3>Navn</h3>
+                <p>200kr</p>
+                <p>Farge:blå</p>
+            </article>
+            <article>
+                <img src="https://picsum.photos/200/300" alt="">
+                <h3>Navn</h3>
+                <p>200kr</p>
+                <p>Farge:blå</p>
+            </article>
+       </section>
+       <section>
+        <h1>Personopplysninger</h1>
+        <form method="post">
+            <label>
+                Fornavn:
+                <input type="text" name="Fornavn" placeholder="Fornavn" pattern="[A-Za-zæøåÆØÅ ]" required>
+                <br><br>
+            </label>
+            <label>
+                Etternavn:
+                <input type="text" name="Etternavn" placeholder="Etternavn" pattern="[A-Za-zæøåÆØÅ ]" required>
+                <br><br>
+            </label>
+            <label>
+                Gateadresse:
+                <input type="text" name="Adresse" placeholder="Gateadresse" pattern="[A-Za-zæøåÆØÅ ]" required>
+                <br><br>
+            </label>
+            <label>
+                Postnummer:
+                <input type="number" name="Postnummer" placeholder="Postnummer" required>
+                <br><br>
+            </label>
+            <label>
+                Poststed:
+                <input type="text" name="Poststed" placeholder="Poststed" pattern="[A-Za-zæøåÆØÅ ]" required>
+                <br><br>
+            </label>
+            <input type="submit" value="Send inn">
+            <button type="reset" value="Reset">Avbryt</button>
+        </form>
+       </section>
+       <section>
+        <form action="post">
+            <label>
+                Leveringssercive:
+                <select name="serciveSelect">
+                    <option value="expressHome">Ekspresslevering Hjem</option>
+                    <option value="expressOut">Ekspresslevering til Utleveringsted</option>
+                    <option value="standardHome">Standard Hjemmelevering</option>
+                </select>
+                <br><br>
+            </label>
+            <input type="submit" value="Send inn">
+        </form>
+       </section>
+       <form action="post">
+            <label>
+            Navn på kort:
+            <input type="text" name="kortnavn" placeholder="Nanv på kort" required>
+            </label>
+            <label>
+            Kortnummer
+            <input type="number" name="Kortnummer" placeholder="1111-2222-3333-4444" required>
+            </label>
+            <label>
+            Exp Month:
+            <input type="number" name="CVC" placeholder="CVC/CVV" required> 
+            </label>
+            <input type="submit" value="Send inn">
+            <p>Du bekrefter herved at opplysningene og dokumentene du har
+                oppgitt er korrekte og fullstendige. Leverandøren forbeholder seg
+                retten til å heve eller avslutte avtaleforholdet dersom det foreligger
+                uriktige eller ufullstendige opplysninger.</p>
+            <label>
+                Ja, jeg godtar vilkårene
+                <input type="checkbox" name="samtykk" required>
+            </label>
+            <label>
+                Ja takk! Send meg nyhetsbrev
+                <input type="checkbox" name="nyhetsbrev">
+            </label>
+        </form>     
+    </main>
+    <footer>
+        <section>
+            <a href="index.html"><img src="assets/finallogo2.png" alt="logo" id="logo"></a>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h4>Kontakt oss</h4>
+            <p>B R A Veien 4, 1757 Halden</p>
+            <p>69 60 80 00</p>
+        </section>
+        <section>
+        <h4>Snarvei</h4>
+        <nav>
+            <ul>
+                <li>
+                    <a href="product.html">Produkter</a>
+                </li>
+                <li>
+                    <a href="#">Kategori</a>
+                </li>
+                <li>
+                    <a href="#">Kontakt oss</a>
+                </li>
+            </ul>
+        </nav>
+        </section>
+        <h4>Sosiale medier</h4>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+    </div>
+</body>
+</html>
