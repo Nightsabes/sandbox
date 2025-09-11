@@ -1,5 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+
+}
+div{
+    background-color: pink;
 }
 
 #logo{
@@ -7,6 +11,35 @@ body {
     max-width: 250px;
 }
 
+header input{
+    padding: 1;
+    border: 1;
+}
+
+header Button{
+    padding: 1;
+
+    border: 1;
+}
+
+ul{
+    list-style: none;
+
+    a{
+        color: black;
+    }
+}
+
+header{
+    background-color: pink;
+}
+main{
+    background-color: pink;
+}
+
+aside{
+    background-color: pink;
+}
 footer{
     background-color: rgb(211, 208, 208);
 }
