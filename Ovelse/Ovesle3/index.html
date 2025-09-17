@@ -3,9 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Hjemmeside</title>
 </head>
 <body>
-    
-</body>
+    <header>
+        <a href="index.html"><h1>Welcome tired one</h1></a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Hjem</a>
+                </li>
+                <li>
+                    <a href="mal.html">Nettside mal</a>
+                </li>
+                <li>
+                    <a href="labovelse.html">Labøvelse</a>
+                </li>
+                <li>
+                    <a href="#contact">Kontakt oss</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Kontakt Oss</h2>
+                <p>something will be added here eventually</p>
+            </article>
+            <article>
+                <h2>Studieplan</h2>
+                <p>something will be added here eventually too</p>
+            </article>
+            <article>
+                <h2>Studieplan og Kontakts Oss</h2>
+                <p>Liker at på hovedsiden så lister dere overskriften for to artikler selvom vi skal lage 3</p>
+            </article>
+        </section>
+        <section>
+            <h2>5 Praktfulle Artikler</h2>
+            <article>
+                <h3>Semrush</h3>
+                <p>Semantic HTML, also known as semantic markup, refers to the use of HTML tags that convey the meaning—or semantics—of the content contained within them.</p>
+                <a href="https://www.semrush.com/blog/semantic-html5-guide/">Les mer her</a>
+            </article>
+
+            <article>
+                <h3>w3schools</h3>
+                <p>A semantic element clearly describes its meaning to both the browser and the developer.</p>
+                <a href="https://www.w3schools.com/html/html5_semantic_elements.asp">Les mer her</a>
+            </article>
+
+            <article>
+                <h3>mdn web docs</h3>
+                <p>In programming, Semantics refers to the meaning of a piece of code — for example "what effect does running that line of JavaScript have?", or "what purpose or role does that HTML element have" (rather than "what does it look like?".)</p>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary/Semantics">Les mer her</a>
+            </article>
+
+            <article>
+                <h3>Wikipedia</h3>
+                <p>Semantic HTML is the use of HTML markup to reinforce the semantics, or meaning, of the information in web pages and web applications rather than merely to define its presentation or look. Semantic HTML is processed by traditional web browsers as well as by many other user agents. CSS is used to suggest its presentation to human users.</p>
+                <a href="https://en.wikipedia.org/wiki/Semantic_HTML">Les mer her</a>
+            </article>
+
+            <article>
+                <h3>Geeksforgeeks</h3>
+                <p>HTML5 Semantics refers to the use of specific tags like header, footer, nav, article, section, etc., to provide clearer structure and meaning to web content. This improves accessibility, and SEO, and facilitates better understanding by both humans and machines.</p>
+                <a href="https://www.geeksforgeeks.org/html5-semantics/">Les mer her</a>
+            </article>
+        </section>
+        <section>
+            <article>
+                <h3>Google resulatat for HTML5</h3>
+                <p>HTML5 sider på Google sin søkemotor</p>
+                <a href="https://www.google.com/search?q=html5&oq=html5&gs_lcrp=EgZjaHJvbWUyCQgAEEUYORiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIGCAUQRRg9MgYIBhBFGD0yBggHEEUYPdIBCDEyMDRqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8">Les mer her</a>
+            </article>
+        </section>
+    </main>
+    <footer id="contact">
+        <p>Seb 2025 Copyright</p>
+        <p>ITF10511-1 25H Webutvikling</p>
+        <p>Spis1Drue@gmail.com</p>
+        <p>Jeg vil dra hjem og sove</p>
+        <form method="post">
+                <label>
+                    Navn:
+                    <input type="text" name="navn" placeholder="Navn" pattern="[A-Za-zæøåÆØÅ ]{2,}" required>
+                </label>
+                <label>
+                    Emne:
+                    <input type="text" name="emne" placeholder="Emnekode" required>
+                </label>
+                <label>
+                    Epost:
+                    <input type="email" name="email" 
+                    placeholder="student@hiof.no" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+                    required>
+                </label>
+                <label>
+                    Melding:
+                    <textarea name="melding"  required>
+
+                    </textarea>
+                </label>
+                <input type="submit" value="Send inn">
+        </form>
+    </footer>
 </html>
